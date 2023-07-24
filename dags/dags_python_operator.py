@@ -12,7 +12,7 @@ with DAG(
 ) as dag:
     
     def select_fruit():
-        fruit_= ['APPLE', 'BANANA', 'ORANGE', 'AVOCADO']
+        fruit= ['APPLE', 'BANANA', 'ORANGE', 'AVOCADO']
         rnad_int = random.randint(0,3)
         print(fruit[rnad_int])
         
