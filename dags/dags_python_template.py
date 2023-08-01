@@ -30,4 +30,5 @@ with DAG(
         print('data_interval_end:' + str(kwargs['data_interval_end']))
         print('task_instance:' + str(kwargs['ti']))
         
+        
     python_t1 >> python_function2() # task decorator 사용시 내재된 함수를 실행하기만 해도 실행 가능한 task가 생성됨
